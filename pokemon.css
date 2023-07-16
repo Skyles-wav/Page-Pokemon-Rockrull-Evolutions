@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Segoe UI - Bold;
+    src: url(Fontes/Segoe\ UI\ Bold.ttf) format('opentype');
+    }
+@font-face {
+    font-family: Segoe UI;
+    src: url(Fontes/Segoe\ UI.ttf) format('opentype');
+}
+*{
+    font-family: 'Segoe UI', sans-serif; 
+    color: #192A3D;
+}
+
+h1{
+    font-family: 'Segoe UI - Bold', sans-serif ;
+    font-weight: bolder;
+}
+p{
+    text-indent: 15px;
+    text-align: justify;
+    font-weight: normal;
+}
+main#m1{
+
+    background-color: #192A3D;
+    padding: 20px;
+    border-radius: 10px;
+    border-left-color: 200px;
+}
+main#m2{
+    width: 600px;
+    margin: auto;
+    padding: 40px;   
+}
+main#m3{
+    background-color: #192A3D;
+    padding: 20px;
+    border-radius: 10px;
+}
+span{
+    color: #0c1015;
+}
+div#s1{
+    text-indent: 110px;
+    text-align: left;
+    width: 200px;
+    
+}
+div#s2{
+    text-indent: 390px;
+    text-align: left;  
+}
+
+div#i2{
+   float: center;
+    margin: auto;
+}
+div{
+    text-align: center;
+}
+img.i1{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
